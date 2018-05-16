@@ -138,7 +138,7 @@ void game::turn(int color){
 	//-------------- Save the dangerous cells and control if it is check ---------------//
 	//----------------------------------------------------------------------------------//
 	board *dangermatrix=new board();	// checks matrix
-	chessboard_[xking][yking]==new empty(xking,yking,BD);	// temporarely empty the king cell (king can't hide behind itself)
+	chessboard_[xking][yking]=new empty(xking,yking,BD);	// temporarely empty the king cell (king can't hide behind itself)
 
 	for(int i=0;i<n_;i++)
 		for(int j=0;j<n_;j++)
