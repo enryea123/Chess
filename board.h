@@ -24,6 +24,4 @@ class board{
 		int **matrixboard_;
 };
 
-//fare metodo in scacchiera per vedere se è occupata da avversario
-
 #endif
